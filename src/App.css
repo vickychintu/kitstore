@@ -1,38 +1,35 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h1{
+  border: 2px solid black;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  width:60%;
+  margin: auto;
+  margin-top: 10px;
 }
-
-.App-link {
-  color: #61dafb;
+.midcontent{
+  width: 80%;
+  margin: auto;
+  border: 2px solid blue;
+  height: 80vh;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.macId{
+  display: flex;
+  justify-content:flex-start;
+  width:400px;
+}
+.macId label{
+  width: 100px;
+}
+.formContent{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+.spacer{
+  height: 30px;
+  width: 10px;
+  background-color: red;
+  visibility: hidden;
 }
